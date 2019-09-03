@@ -8,8 +8,9 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SecondViewController: UIViewController {
 
+    @IBOutlet weak var sLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         
